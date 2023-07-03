@@ -1,0 +1,67 @@
+body
+{
+    background-color: #1B2430;
+    color: white;
+}
+
+main
+{
+    margin-top: 90px;
+    place-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+}
+
+.boxes
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #51557E;
+    padding: 30px;
+}
+
+.titulos
+{
+    font-size: 20px;
+}
+
+#sub
+{
+    font-size: 20px;
+    color: lightgreen;
+    margin-bottom: 70px;
+}
+
+#excelente
+{
+    margin-top: 30px;
+    max-width: 100px;
+    padding: 10px;
+    margin-left: 69px;
+}
+
+#nps
+{
+    text-align: center;
+}
+
+#vendasfechadas
+{
+    text-align: center;
+}
+
+#metamensal
+{
+    text-align: center;
+}
+
+#vendaspordia
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
